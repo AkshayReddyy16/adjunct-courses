@@ -13,3 +13,8 @@ def time_it(decorated_function):
         return result
 
     return wrapper
+a=[1,2,3,4,5]
+b={'a':1,'b':2,'c':3}
+def func(*args,**kwargs):
+    print(args,kwargs)
+fun(*a,**b)
